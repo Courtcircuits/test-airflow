@@ -10,7 +10,7 @@ airflow:
       enabled: false
   executor: "KubernetesExecutor"
   fernetkeysecretname: fernetkeysecret
-  webserverSecretKeySecretName: webserversecret
+  webserverSecretKey: webserversecret
   createUserJob:
     useHelmHooks: false
     applyCustomEnv: false
