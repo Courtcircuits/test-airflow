@@ -9,8 +9,7 @@ airflow:
     persistence:
       enabled: false
   executor: "KubernetesExecutor"
-  fernetkeysecretname: fernetkeysecret
-  webserverSecretKey: webserversecret
+  webserverSecretKeySecretName: my-webserver-secret
   createUserJob:
     useHelmHooks: false
     applyCustomEnv: false
